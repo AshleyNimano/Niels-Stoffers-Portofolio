@@ -118,4 +118,11 @@ textarea::placeholder{
   color: rgb(255, 255, 255);
   
 }
-
+@media screen and (max-width: 633px){
+  h1{
+    font-size: 30px;
+  }
+  .container{
+    width: 80%;
+  }
+}
