@@ -132,5 +132,6 @@ textarea::placeholder{
   }
   .container{
     font-size: 17px;
+    margin-bottom: 200px;
   }
 }
