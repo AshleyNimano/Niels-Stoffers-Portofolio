@@ -118,14 +118,25 @@ textarea::placeholder{
   color: rgb(255, 255, 255);
   
 }
+
 @media screen and (max-width: 633px){
   h1{
     font-size: 30px;
   }
   .container{
     width: 80%;
+    margin-bottom: 40%;
+    margin-top: 10%;
+  }
+  .body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
   }
 }
+
+
 @media only screen and (max-width: 480px) {
   h1{
     font-size: 20px;
@@ -134,7 +145,8 @@ textarea::placeholder{
     font-size: 17px;
     margin-bottom: 200px;
   }
-}
-button{
+  button{
     color: black;
   }
+
+}
