@@ -297,3 +297,57 @@ nav{
     color: rgb(0, 0, 0);
   }
 }
+@media only screen and (max-width: 700px) {
+  .logo{
+    font-size: 20px;
+  }
+  .logo span{
+    font-size: 16px;
+  }
+  .hamburger-div.active{
+    width: 250px;
+    font-size: 16px;
+  }
+  .hamburger-div.active a{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+  }
+  .hamburger-div.active a:hover{
+    text-decoration: underline;
+  }
+  .foto-div{
+    width: 95%;
+    height: 500px;
+  }
+  .foto-div img{
+    width: 30%;
+  }
+  .foto-div div{
+    margin-top: -130px;
+  }
+  
+  .div-2{
+    height: 100vh;
+    padding-top: 10%;
+  }
+  .info-div{
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 25%;
+  }
+  .info-div h1{
+    font-size: 38px;
+    width: 250%;
+  }
+  .info-div h3{
+    font-size: 18px;
+  }
+  .info-div p{
+    width: 150%;
+    font-size: 15px;
+  }
+}
