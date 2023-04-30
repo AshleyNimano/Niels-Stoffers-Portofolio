@@ -135,3 +135,6 @@ textarea::placeholder{
     margin-bottom: 200px;
   }
 }
+button{
+    color: black;
+  }
